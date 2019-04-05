@@ -1,5 +1,8 @@
 # Discrete Hidden Markov Model
 
+## Description
+[Slide Link](https://drive.google.com/open?id=1YHVrBSkKFyBuif2ho_ZVdeuBPUTZWAaW)
+
 ## Environment
 
 System: Ubuntu 16.04.6 LTS <br>
