@@ -7,7 +7,7 @@ Compiler: gcc 5.4.0 <br>
 
 ## How to Execute
 
-0.  (Optional) You can change the value of the variable “var” in Makefile to customize the iterations you want(default value is 1000).
+0. (Optional) You can change the value of the variable “var” in Makefile to customize the iterations you want(default value is 1000).
 
 1. First, you need to compile the three C programs(train.c, test.c, and acc.c). 
 - Compile
@@ -39,6 +39,7 @@ $ make run_acc
 
 ## Experiment
 1. I tried different iterations and find that when the iteration increases, the accuracy will decrease at the first; then, it will keep increasing and finally fluctuate around 0.87. <br>
+
 | iteration | accuracy |
 | --------- | -------- |
 | 1         | 0.766000 |
@@ -50,7 +51,9 @@ $ make run_acc
 | 1500      | 0.870000 |
 | 1800      | 0.869600 |
 
+
 2. Out of curiosity, I tried different initial probability(set iteration = 100) and find that the different initial probability does impact the accuracy given the same iteration. However, because this experiment is very rough, we do not know whether they will converge to the different accuracy and which one will have the best performance. <br>
+
 | initial probability                                        | accuracy |
 | ---------------------------------------------------------- | -------- |
 | 0.2        0.1        0.2        0.2        0.2        0.1 | 0.810000 |
