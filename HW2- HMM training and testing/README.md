@@ -5,14 +5,14 @@
 
 ## How to Execute
 
-0.  Download [HTK](https://drive.google.com/open?id=1SoaoG9jvkSLdc_f_K1PrqEcXLoTHxDfG), [Speech Data](https://drive.google.com/open?id=1Kc1hUXYR_TZ3G--_OwdFwqnBngkDcplI) and put them into the folder. <br>
+0. Download [HTK](https://drive.google.com/open?id=1SoaoG9jvkSLdc_f_K1PrqEcXLoTHxDfG), [Speech Data](https://drive.google.com/open?id=1Kc1hUXYR_TZ3G--_OwdFwqnBngkDcplI) and put them into the folder. <br>
 
-0.  (Optional) If any parameter or file is changed, please remove all the previos files.
+0. (Optional) If any parameter or file is changed, please remove all the previos files.
 ```
 $ ./00_clean_all.sh
 ```
 
-1.  Feature Extraction
+1. Feature Extraction
 ```
 $ ./01_run_HCopy.sh
 ```
